@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campo Minado"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite seu nome para jogar:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etNomeJogador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex: João Silva"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnIniciarJogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Jogo"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnVerHistorico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Histórico de Partidas"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="#2196F3" />
+
+</LinearLayout>
